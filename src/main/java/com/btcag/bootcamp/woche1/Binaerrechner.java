@@ -1,4 +1,4 @@
-package com.btcag.bootcamp;
+package com.btcag.bootcamp.woche1;
 import java.util.Scanner;
 
 public class Binaerrechner {
