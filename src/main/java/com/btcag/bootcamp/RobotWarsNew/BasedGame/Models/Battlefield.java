@@ -1,7 +1,8 @@
-package com.btcag.bootcamp.RobotWarsNew.Models;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Models;
 
 import java.util.Arrays;
 import java.util.Random;
+
 
 public class Battlefield {
     private final int width;
@@ -44,5 +45,4 @@ public class Battlefield {
     public boolean isValidField(int x, int y) {
         return x > 0 && x <= width && y > 0 && y <= height;
     }
-
 }

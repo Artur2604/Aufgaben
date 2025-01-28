@@ -1,17 +1,17 @@
-package com.btcag.bootcamp.RobotWarsNew;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame;
 
-import com.btcag.bootcamp.RobotWarsNew.Models.Battlefield;
-import com.btcag.bootcamp.RobotWarsNew.Models.Items;
-import com.btcag.bootcamp.RobotWarsNew.Models.Obstacles;
-import com.btcag.bootcamp.RobotWarsNew.Models.Robot;
-import com.btcag.bootcamp.RobotWarsNew.Services.MoveDirection;
-import com.btcag.bootcamp.RobotWarsNew.Services.RobotService;
-import com.btcag.bootcamp.RobotWarsNew.Views.*;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Battlefield;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Items;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Obstacles;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Robot;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Services.MoveDirection;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Services.RobotService;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Views.*;
 
 import java.util.Random;
 
 public class GameController {
-    public static Obstacles[] obstacles = new Obstacles[15];
+    public static Obstacles[] obstacles = new Obstacles[5];
     public static Random rand = new Random();
 
     public static void main(String[] args) {

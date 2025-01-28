@@ -1,4 +1,4 @@
-package com.btcag.bootcamp.RobotWarsNew.Views;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Views;
 
 import java.util.Scanner;
 
@@ -11,4 +11,5 @@ public class ActionMenuView {
                 "[3] Abbrechen \n");
         return readIn.nextInt();
     }
+
 }

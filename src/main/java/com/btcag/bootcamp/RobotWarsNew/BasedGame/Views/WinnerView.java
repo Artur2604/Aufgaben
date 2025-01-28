@@ -1,6 +1,6 @@
-package com.btcag.bootcamp.RobotWarsNew.Views;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Views;
 
-import com.btcag.bootcamp.RobotWarsNew.Models.Robot;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Robot;
 
 public class WinnerView {
     public static void display(Robot winner) {
@@ -17,4 +17,5 @@ public class WinnerView {
         System.out.println();
         System.out.println(winner.getName() + " hat den Kampf gewonnen!");
     }
+
 }

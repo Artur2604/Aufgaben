@@ -1,7 +1,7 @@
-package com.btcag.bootcamp.RobotWarsNew.Services;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Services;
 
-import com.btcag.bootcamp.RobotWarsNew.Models.Items;
-import com.btcag.bootcamp.RobotWarsNew.Models.Robot;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Items;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Robot;
 
 public class RobotService {
     public static Robot CheckHP(Robot robot1, Robot robot2) {
@@ -26,5 +26,4 @@ public class RobotService {
     public static boolean checkPlayerOnItem(Robot robot, Items item ) {
         return (robot.getX()==item.getX() && robot.getY()==item.getY());
     }
-
 }

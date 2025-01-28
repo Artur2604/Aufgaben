@@ -1,11 +1,11 @@
-package com.btcag.bootcamp.RobotWarsNew.Views;
+package com.btcag.bootcamp.RobotWarsNew.APIconnectedGame.Views;
 
-import com.btcag.bootcamp.RobotWarsNew.Models.Robot;
+import com.btcag.bootcamp.RobotWarsNew.APIconnectedGame.Models.Bot;
 
 import java.util.Scanner;
 
-public class SkillPointsView {
-    public void displaySkillPoints(Robot robot) {
+public class BotSkillPoints {
+    public void displaySkillPoints(Bot robot) {
         int SkillPoints = 10;
 
         while (SkillPoints > 0) {
@@ -16,7 +16,7 @@ public class SkillPointsView {
             System.out.println("(2) -> Damagepoints ");
             System.out.println("(3) -> Movementrange ");
             System.out.println("(4) -> Range \n");
-
+//test2
 
             Scanner readIn = new Scanner(System.in);
 
@@ -26,16 +26,16 @@ public class SkillPointsView {
             if (points > SkillPoints) {
                 System.out.println("Du hast nicht genügend Skillpunkte. Versuche es erneut.\n ");
             } else if (userInput == 1) {
-                robot.setHp(robot.getHp() + points);
+                robot.setHealth(robot.getHealth() + points);
                 SkillPoints-=points;
             } else if (userInput == 2) {
-                robot.setDamage(robot.getDamage() + points);
+                robot.setAttackDamage(robot.getAttackDamage() + points);
                 SkillPoints-=points;
             } else if (userInput == 3) {
-                robot.setMovementRate(robot.getMovementRate() + points);
+                robot.setMovementRate(robot.getMovementRate()+ points);
                 SkillPoints-=points;
             } else if (userInput == 4) {
-                robot.setRange(robot.getRange() + points);
+                robot.setAttackRange(robot.getAttackRange() + points);
                 SkillPoints-=points;
             } else {
                 System.out.println("Ungültige Eingabe!");
@@ -47,13 +47,11 @@ public class SkillPointsView {
     }
 
 
-    public void showPlayerStats(Robot robot) {
+    public void showPlayerStats(Bot robot) {
         System.out.println("Spieler:      " + robot.getName());
-        System.out.println("Healthpoints: || " + robot.getHp());
-        System.out.println("Damagepoints: || " + robot.getDamage());
+        System.out.println("Healthpoints: || " + robot.getHealth());
+        System.out.println("Damagepoints: || " + robot.getAttackDamage());
         System.out.println("Movementrange:|| " + robot.getMovementRate());
-        System.out.println("Range:        || " + robot.getRange());
-
-
+        System.out.println("Range:        || " + robot.getAttackRange());
     }
 }

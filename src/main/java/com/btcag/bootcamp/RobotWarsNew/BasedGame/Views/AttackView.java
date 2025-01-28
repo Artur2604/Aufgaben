@@ -1,6 +1,6 @@
-package com.btcag.bootcamp.RobotWarsNew.Views;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Views;
 
-import com.btcag.bootcamp.RobotWarsNew.Models.Robot;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Robot;
 
 public class AttackView {
     public static void attackDisplay(Robot robot1,Robot robot2) {

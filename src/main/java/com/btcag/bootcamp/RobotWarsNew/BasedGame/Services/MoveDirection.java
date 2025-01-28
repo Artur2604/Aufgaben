@@ -1,4 +1,4 @@
-package com.btcag.bootcamp.RobotWarsNew.Services;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Services;
 
 public enum MoveDirection {
     NORD(0, -1),

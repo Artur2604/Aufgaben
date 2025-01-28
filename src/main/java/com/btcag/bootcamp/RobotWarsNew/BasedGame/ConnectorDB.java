@@ -1,4 +1,4 @@
-package com.btcag.bootcamp.RobotWarsNew;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame;
 
 import java.sql.*;
 import java.sql.ResultSet;

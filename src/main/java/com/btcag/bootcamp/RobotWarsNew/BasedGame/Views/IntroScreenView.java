@@ -1,4 +1,4 @@
-package com.btcag.bootcamp.RobotWarsNew.Views;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Views;
 
 public class IntroScreenView {
     public static void display(){
@@ -12,5 +12,4 @@ public class IntroScreenView {
                         "                                                                     ");
         System.out.println("//Willkommen bei Robot Wars!");
     }
-
 }

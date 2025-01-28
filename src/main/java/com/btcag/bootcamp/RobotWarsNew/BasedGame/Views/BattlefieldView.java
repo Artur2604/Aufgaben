@@ -1,7 +1,6 @@
-package com.btcag.bootcamp.RobotWarsNew.Views;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Views;
 
-import com.btcag.bootcamp.RobotWarsNew.Models.Battlefield;
-import com.btcag.bootcamp.RobotWarsNew.Models.Robot;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Models.Battlefield;
 
 public class BattlefieldView {
     public static void display(Battlefield battlefield,String username,char userAvatar) {
@@ -39,5 +38,4 @@ public class BattlefieldView {
         }
         System.out.println(end);
     }
-
 }

@@ -1,6 +1,6 @@
-package com.btcag.bootcamp.RobotWarsNew.Views;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Views;
 
-import com.btcag.bootcamp.RobotWarsNew.Services.MoveDirection;
+import com.btcag.bootcamp.RobotWarsNew.BasedGame.Services.MoveDirection;
 
 import java.util.Scanner;
 

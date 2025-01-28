@@ -1,4 +1,4 @@
-package com.btcag.bootcamp.RobotWarsNew.Models;
+package com.btcag.bootcamp.RobotWarsNew.BasedGame.Models;
 
 public class Obstacles {
     int x;
